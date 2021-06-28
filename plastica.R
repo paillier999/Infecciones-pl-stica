@@ -24,7 +24,10 @@ procedi_2020_norte <- read_excel("datos/procedi_2018_sur.xls")
 
 procedi_2020_sur <- read_excel("datos/procedi_2018_sur.xls")
 
+#Fusionando las bases de satos en un solo data frame
 
+cirugías <- bind_rows(procedi_2018_norte, procedi_2018_sur, procedi_2019_norte, procedi_2019_sur,
+          procedi_2020_norte, procedi_2020_sur)
 
 
 
