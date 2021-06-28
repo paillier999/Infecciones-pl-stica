@@ -7,11 +7,27 @@ use_git_config(user.name = "paillier999", user.email = "paillier999@hotmail")
 
 library(tidyverse)
 
-#Importación de datos de sede sur
+#Importación de datos de sede sur importo los datos por separada y luego los uno
+#en un solo data frame. Falta primer semestre de 2021
+
 library(readxl)
-procedi_2020 <- read_excel("datos/procedi_2020.xls")
-View(procedi_2020)
-names(procedi_2020)
+
+procedi_2018_norte <- read_excel("datos/procedi_2018_sur.xls")
+
+procedi_2018_sur <- read_excel("datos/procedi_2018_sur.xls")
+
+procedi_2019_norte <- read_excel("datos/procedi_2018_sur.xls")
+
+procedi_2019_sur <- read_excel("datos/procedi_2018_sur.xls")
+
+procedi_2020_norte <- read_excel("datos/procedi_2018_sur.xls")
+
+procedi_2020_sur <- read_excel("datos/procedi_2018_sur.xls")
+
+
+
+
+
 
 #mutando variable "semestre"
 
