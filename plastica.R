@@ -56,3 +56,8 @@ plastico %>%
   group_by(semestre) %>%
   summarise(Total=n())
 
+#proximamente se cruzarà base de datos con reingresos.
+# se agrega a la carpeta datos las cirugías desde segundo semestre de 2018 hasta 2020
+#Pendiente primer semestre de 2021
+
+
