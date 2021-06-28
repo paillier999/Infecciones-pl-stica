@@ -24,13 +24,10 @@ procedi_2020 %>%
   filter(MENomE=="CIRUGIA PLASTICA Y ESTETICA") %>% 
   summarise(Total=n())
 
-
 procedi_2020 %>% 
   filter(MENomE=="CIRUGIA PLASTICA Y ESTETICA") %>% 
            group_by(semestre) %>% 
            summarise(Total=n())
-
-
 
 #Seleccionando solo los procedimientos de cx plástica (MESTECTOMIAS Y 
 # LIPECTOMIAS) Màs variables de interés para sede sur del año 2020
